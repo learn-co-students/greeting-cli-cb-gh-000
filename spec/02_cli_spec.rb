@@ -25,7 +25,7 @@ describe './bin/greet executing a CLI Application' do
 
     expect(self).to receive(:greeting).with("Don"), "Make sure the bin/greet file has code that calls the #greeting method with an argument of the user's name."
 
-    run_file("../bin/greet")
+    run_file("./bin/greet")
   end
 
   it "calls on the #greeting method with an argument of the user's name and returns the new greeting, interpolating the user's name" do
