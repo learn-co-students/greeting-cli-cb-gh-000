@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-
+learn bin/greet.rb
 # code your CLI here!
